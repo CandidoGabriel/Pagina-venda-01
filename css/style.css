@@ -71,6 +71,7 @@ section.sessao1 .container{
 	float: left;
 	width: 50%;
 	color: white;
+	padding-left: 0;
 	position: relative;
 	left: 55px;
 	margin-top: 60px;
@@ -114,4 +115,32 @@ section.sessao1 .container{
 	background-image: url('../imagens/device.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+@media screen and (max-width: 768px){
+	section.sessao1{
+		padding: 40px 2%;
+		height: auto;
+		text-align: center;
+	}
+	.texto-sessao1{
+		width: 100%;
+		margin-top: 0;
+		position: static;
+		float: none;
+		display: inline-block;
+	}
+	.texto-sessao1 ul{
+		display: inline-block;
+		width: auto;
+	}
+	.texto-sessao1 ul li{
+		float: none;
+		text-align: left;
+	}
+	.btn1-texto{
+		display: inline-block;
+	}
+	.device-sessao1{
+		display: none;
+	}
 }
