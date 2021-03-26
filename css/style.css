@@ -24,11 +24,13 @@ header nav{
 	float: right;
 }
 header .logo{
+	position: relative;
+	top: -5px;
 	float: left;
 	width: 160px;
 	height: 40px;
 	background-color: transparent;
-	background-image: url(../imagens/logo-danki);
+	background-image: url(../imagens/logo-danki.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center; 
@@ -236,11 +238,11 @@ section.sessao1 .container{
 }
 .titulo-autor .img-autor{
 	float: left;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	position: relative;
-	top: -4px;
+	width: 60px;
+	height: 60px;
+	background-image: url('../imagens/actor1.png');
+	background-size: 100% 100%;
+	border-radius: 30px;
 	background-color: gray;
 }
 .texto-autor{
