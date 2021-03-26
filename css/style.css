@@ -456,6 +456,9 @@ footer p:nth-of-type(2){
 		width: 100%;
 		padding: 40px 0;
 	}
+	.wraper-part1{
+		padding-left: 30px;
+	}
 	.part2{
 		width: 100%;
 		padding: 40px 0;
